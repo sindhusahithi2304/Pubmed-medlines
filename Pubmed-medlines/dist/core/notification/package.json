@@ -1,0 +1,10 @@
+{
+  "main": "../bundles/sinequa-core-notification.umd.js",
+  "module": "../fesm2015/sinequa-core-notification.js",
+  "es2015": "../fesm2015/sinequa-core-notification.js",
+  "esm2015": "../esm2015/notification/sinequa-core-notification.js",
+  "fesm2015": "../fesm2015/sinequa-core-notification.js",
+  "typings": "sinequa-core-notification.d.ts",
+  "sideEffects": false,
+  "name": "@sinequa/core/notification"
+}

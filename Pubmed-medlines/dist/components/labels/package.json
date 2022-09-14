@@ -1,0 +1,10 @@
+{
+  "main": "../bundles/sinequa-components-labels.umd.js",
+  "module": "../fesm2015/sinequa-components-labels.js",
+  "es2015": "../fesm2015/sinequa-components-labels.js",
+  "esm2015": "../esm2015/labels/sinequa-components-labels.js",
+  "fesm2015": "../fesm2015/sinequa-components-labels.js",
+  "typings": "sinequa-components-labels.d.ts",
+  "sideEffects": false,
+  "name": "@sinequa/components/labels"
+}

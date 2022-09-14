@@ -1,0 +1,10 @@
+{
+  "main": "../bundles/sinequa-components-rfm.umd.js",
+  "module": "../fesm2015/sinequa-components-rfm.js",
+  "es2015": "../fesm2015/sinequa-components-rfm.js",
+  "esm2015": "../esm2015/rfm/sinequa-components-rfm.js",
+  "fesm2015": "../fesm2015/sinequa-components-rfm.js",
+  "typings": "sinequa-components-rfm.d.ts",
+  "sideEffects": false,
+  "name": "@sinequa/components/rfm"
+}

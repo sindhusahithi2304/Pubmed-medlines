@@ -1,0 +1,10 @@
+{
+  "main": "../bundles/sinequa-components-status-bar.umd.js",
+  "module": "../fesm2015/sinequa-components-status-bar.js",
+  "es2015": "../fesm2015/sinequa-components-status-bar.js",
+  "esm2015": "../esm2015/status-bar/sinequa-components-status-bar.js",
+  "fesm2015": "../fesm2015/sinequa-components-status-bar.js",
+  "typings": "sinequa-components-status-bar.d.ts",
+  "sideEffects": false,
+  "name": "@sinequa/components/status-bar"
+}

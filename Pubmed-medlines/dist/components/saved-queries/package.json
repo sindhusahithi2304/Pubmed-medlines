@@ -1,0 +1,10 @@
+{
+  "main": "../bundles/sinequa-components-saved-queries.umd.js",
+  "module": "../fesm2015/sinequa-components-saved-queries.js",
+  "es2015": "../fesm2015/sinequa-components-saved-queries.js",
+  "esm2015": "../esm2015/saved-queries/sinequa-components-saved-queries.js",
+  "fesm2015": "../fesm2015/sinequa-components-saved-queries.js",
+  "typings": "sinequa-components-saved-queries.d.ts",
+  "sideEffects": false,
+  "name": "@sinequa/components/saved-queries"
+}

@@ -1,0 +1,10 @@
+{
+  "main": "../bundles/sinequa-components-utils.umd.js",
+  "module": "../fesm2015/sinequa-components-utils.js",
+  "es2015": "../fesm2015/sinequa-components-utils.js",
+  "esm2015": "../esm2015/utils/sinequa-components-utils.js",
+  "fesm2015": "../fesm2015/sinequa-components-utils.js",
+  "typings": "sinequa-components-utils.d.ts",
+  "sideEffects": false,
+  "name": "@sinequa/components/utils"
+}

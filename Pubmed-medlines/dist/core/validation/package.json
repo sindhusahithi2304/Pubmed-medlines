@@ -1,0 +1,10 @@
+{
+  "main": "../bundles/sinequa-core-validation.umd.js",
+  "module": "../fesm2015/sinequa-core-validation.js",
+  "es2015": "../fesm2015/sinequa-core-validation.js",
+  "esm2015": "../esm2015/validation/sinequa-core-validation.js",
+  "fesm2015": "../fesm2015/sinequa-core-validation.js",
+  "typings": "sinequa-core-validation.d.ts",
+  "sideEffects": false,
+  "name": "@sinequa/core/validation"
+}

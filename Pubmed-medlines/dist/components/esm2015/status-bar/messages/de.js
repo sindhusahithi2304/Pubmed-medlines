@@ -1,0 +1,8 @@
+export default {
+    "statusBar": {
+        "fullscreenTitleEnter": "Vollbildmodus",
+        "fullscreenTitleExit": "Volbildmodus verlassen",
+        "networkActivity": "Netzwerk-Aktivität"
+    }
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZGUuanMiLCJzb3VyY2VSb290IjoiLi4vLi4vLi4vLi4vcHJvamVjdHMvY29tcG9uZW50cy9zdGF0dXMtYmFyLyIsInNvdXJjZXMiOlsibWVzc2FnZXMvZGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsZUFBZTtJQUNYLFdBQVcsRUFBRTtRQUNULHNCQUFzQixFQUFFLGVBQWU7UUFDdkMscUJBQXFCLEVBQUUsd0JBQXdCO1FBQy9DLGlCQUFpQixFQUFFLG9CQUFvQjtLQUMxQztDQUNKLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCB7XG4gICAgXCJzdGF0dXNCYXJcIjoge1xuICAgICAgICBcImZ1bGxzY3JlZW5UaXRsZUVudGVyXCI6IFwiVm9sbGJpbGRtb2R1c1wiLFxuICAgICAgICBcImZ1bGxzY3JlZW5UaXRsZUV4aXRcIjogXCJWb2xiaWxkbW9kdXMgdmVybGFzc2VuXCIsXG4gICAgICAgIFwibmV0d29ya0FjdGl2aXR5XCI6IFwiTmV0endlcmstQWt0aXZpdMOkdFwiXG4gICAgfVxufTtcbiJdfQ==

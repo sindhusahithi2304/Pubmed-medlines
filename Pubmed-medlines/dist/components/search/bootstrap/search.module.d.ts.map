@@ -1,0 +1,1 @@
+{"version":3,"file":"search.module.d.ts","sourceRoot":"../../../../projects/components/search/","sources":["bootstrap/search.module.ts"],"names":[],"mappings":"AAAA,OAAO,EAAW,mBAAmB,EAAC,MAAM,eAAe,CAAC;AAS5D,OAAO,EAAC,aAAa,EAAiB,MAAM,mBAAmB,CAAC;;;;;;;;;;;;;;;;;;AAYhE,qBAyBa,cAAc;IACvB,MAAM,CAAC,OAAO,CAAC,aAAa,EAAE,aAAa,GAAI,mBAAmB,CAAC,cAAc,CAAC;0CADzE,cAAc;kCAAd,cAAc;CAU1B"}

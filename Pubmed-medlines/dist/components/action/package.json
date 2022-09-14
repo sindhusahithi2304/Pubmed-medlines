@@ -1,0 +1,10 @@
+{
+  "main": "../bundles/sinequa-components-action.umd.js",
+  "module": "../fesm2015/sinequa-components-action.js",
+  "es2015": "../fesm2015/sinequa-components-action.js",
+  "esm2015": "../esm2015/action/sinequa-components-action.js",
+  "fesm2015": "../fesm2015/sinequa-components-action.js",
+  "typings": "sinequa-components-action.d.ts",
+  "sideEffects": false,
+  "name": "@sinequa/components/action"
+}

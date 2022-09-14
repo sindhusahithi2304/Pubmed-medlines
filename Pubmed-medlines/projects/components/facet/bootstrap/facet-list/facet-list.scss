@@ -1,0 +1,52 @@
+@import "../facet-base.scss";
+
+.progress-bar {
+  right:0; 
+  bottom:0; 
+  width: calc(100% - var(--count));
+  height:2px;
+  
+  &.progress-color {
+    background-color: $color-gray-700;
+    background-image: linear-gradient( 90deg, $color-blue-400, transparent);
+  }
+}
+
+.facet-row {
+  .icons {
+    transition: opacity .3s, transform .3s ease;
+    
+    &.icon-hover {
+      &.rotate {
+        transform: rotate(-180deg);
+      }
+      opacity: 0;
+    }
+  }
+
+  &:hover {
+    .icon-default {
+      &.rotate {
+        transform: rotate(180deg);
+      }
+      opacity: 0;  
+    }
+
+    .icon-hover {
+      &.rotate {
+        transform: rotate(0deg);
+      }
+      opacity: 1;  
+    }
+  }
+  
+  .fa-stack {
+    height: 1.5em;
+    line-height: 1.5em;
+  }
+}
+
+.facet-results-scrollable {
+  max-height: 385px;
+  overflow-y: auto;
+}

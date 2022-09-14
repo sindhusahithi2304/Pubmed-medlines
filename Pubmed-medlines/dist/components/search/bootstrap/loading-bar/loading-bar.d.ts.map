@@ -1,0 +1,1 @@
+{"version":3,"file":"loading-bar.d.ts","sourceRoot":"../../../../projects/components/search/","sources":["bootstrap/loading-bar/loading-bar.ts"],"names":[],"mappings":"AACA,OAAO,EAAC,aAAa,EAAC,MAAM,sBAAsB,CAAC;;AAInD,qBAiDa,YAAY;IAQd,aAAa,EAAE,aAAa;IAPrC;;;OAGG;IACM,MAAM,CAAC,EAAE,OAAO,CAAC;gBAGjB,aAAa,EAAE,aAAa;IAGrC,QAAQ;iCAXG,YAAY;2CAAZ,YAAY;CAcxB"}

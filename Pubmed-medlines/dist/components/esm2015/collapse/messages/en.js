@@ -1,0 +1,7 @@
+export default {
+    collapseButton: {
+        collapse: "Collapse",
+        expand: "Expand"
+    }
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZW4uanMiLCJzb3VyY2VSb290IjoiLi4vLi4vLi4vLi4vcHJvamVjdHMvY29tcG9uZW50cy9jb2xsYXBzZS8iLCJzb3VyY2VzIjpbIm1lc3NhZ2VzL2VuLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGVBQWU7SUFDWCxjQUFjLEVBQUU7UUFDWixRQUFRLEVBQUUsVUFBVTtRQUNwQixNQUFNLEVBQUUsUUFBUTtLQUNuQjtDQUNKLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCB7XG4gICAgY29sbGFwc2VCdXR0b246IHtcbiAgICAgICAgY29sbGFwc2U6IFwiQ29sbGFwc2VcIixcbiAgICAgICAgZXhwYW5kOiBcIkV4cGFuZFwiXG4gICAgfVxufTtcbiJdfQ==

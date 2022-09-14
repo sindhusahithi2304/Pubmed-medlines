@@ -1,0 +1,1 @@
+{"version":3,"file":"suggestion.d.ts","sourceRoot":"../../../../projects/core/web-services/","sources":["suggest/suggestion.ts"],"names":[],"mappings":"AAAA;;GAEG;AACH,MAAM,WAAW,UAAU;IACvB,QAAQ,EAAE,MAAM,CAAC;IACjB,OAAO,EAAE,MAAM,CAAC;IAChB,SAAS,CAAC,EAAE,MAAM,CAAC;IACnB,EAAE,CAAC,EAAE,MAAM,CAAC;IACZ,UAAU,CAAC,EAAE,MAAM,CAAC;CACvB"}

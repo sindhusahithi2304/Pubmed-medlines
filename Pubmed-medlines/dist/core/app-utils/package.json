@@ -1,0 +1,10 @@
+{
+  "main": "../bundles/sinequa-core-app-utils.umd.js",
+  "module": "../fesm2015/sinequa-core-app-utils.js",
+  "es2015": "../fesm2015/sinequa-core-app-utils.js",
+  "esm2015": "../esm2015/app-utils/sinequa-core-app-utils.js",
+  "fesm2015": "../fesm2015/sinequa-core-app-utils.js",
+  "typings": "sinequa-core-app-utils.d.ts",
+  "sideEffects": false,
+  "name": "@sinequa/core/app-utils"
+}

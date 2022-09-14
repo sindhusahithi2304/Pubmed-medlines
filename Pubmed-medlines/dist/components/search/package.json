@@ -1,0 +1,10 @@
+{
+  "main": "../bundles/sinequa-components-search.umd.js",
+  "module": "../fesm2015/sinequa-components-search.js",
+  "es2015": "../fesm2015/sinequa-components-search.js",
+  "esm2015": "../esm2015/search/sinequa-components-search.js",
+  "fesm2015": "../fesm2015/sinequa-components-search.js",
+  "typings": "sinequa-components-search.d.ts",
+  "sideEffects": false,
+  "name": "@sinequa/components/search"
+}

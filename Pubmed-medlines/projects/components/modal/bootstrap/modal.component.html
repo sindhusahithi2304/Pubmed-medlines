@@ -1,0 +1,19 @@
+<div class="modal-dialog">
+   
+    <div class="modal-content">
+        <sq-modal-header *ngIf="showHeader" [title]="title">
+            <ng-content select="[header]"></ng-content>
+        </sq-modal-header>
+        <div class="modal-body">
+            <span class="message">Would you like to Subcribe these baskets records...?</span>
+            <ng-content></ng-content>
+        </div>
+        <!--<sq-modal-footer *ngIf="showFooter" [buttons]="buttons" [isProcessingState]="isProcessingState">
+            <ng-content select="[footer]"></ng-content>
+        </sq-modal-footer>-->
+        <div class="modal-footer">
+            <button type="button" class="btn btn-danger" (click)="decline()">{{ btnCancelText }}</button>
+            <button type="button" class="btn btn-primary" (click)="accept()">{{ btnOkText }}</button>
+          </div>
+    </div>
+</div>

@@ -1,0 +1,10 @@
+{
+  "main": "../bundles/sinequa-components-metadata.umd.js",
+  "module": "../fesm2015/sinequa-components-metadata.js",
+  "es2015": "../fesm2015/sinequa-components-metadata.js",
+  "esm2015": "../esm2015/metadata/sinequa-components-metadata.js",
+  "fesm2015": "../fesm2015/sinequa-components-metadata.js",
+  "typings": "sinequa-components-metadata.d.ts",
+  "sideEffects": false,
+  "name": "@sinequa/components/metadata"
+}

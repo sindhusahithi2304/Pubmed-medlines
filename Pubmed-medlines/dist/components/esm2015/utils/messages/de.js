@@ -1,0 +1,7 @@
+export default {
+    "clipboard": {
+        "success": "{data} in die Zwischenablage kopiert",
+        "error": "Zwischenablagefehler"
+    }
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZGUuanMiLCJzb3VyY2VSb290IjoiLi4vLi4vLi4vLi4vcHJvamVjdHMvY29tcG9uZW50cy91dGlscy8iLCJzb3VyY2VzIjpbIm1lc3NhZ2VzL2RlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGVBQWU7SUFDWCxXQUFXLEVBQUU7UUFDVCxTQUFTLEVBQUUsc0NBQXNDO1FBQ2pELE9BQU8sRUFBRSxzQkFBc0I7S0FDbEM7Q0FDSixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQge1xyXG4gICAgXCJjbGlwYm9hcmRcIjoge1xyXG4gICAgICAgIFwic3VjY2Vzc1wiOiBcIntkYXRhfSBpbiBkaWUgWndpc2NoZW5hYmxhZ2Uga29waWVydFwiLFxyXG4gICAgICAgIFwiZXJyb3JcIjogXCJad2lzY2hlbmFibGFnZWZlaGxlclwiXHJcbiAgICB9XHJcbn07XHJcbiJdfQ==

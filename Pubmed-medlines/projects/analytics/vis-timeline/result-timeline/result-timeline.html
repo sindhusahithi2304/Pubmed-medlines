@@ -1,0 +1,6 @@
+<div *ngIf="items && items.length" 
+    [visTimeline]="name" 
+    [visTimelineItems]="items"
+    [visTimelineOptions]="options"
+    (initialized)="timelineInitialized()">
+</div>

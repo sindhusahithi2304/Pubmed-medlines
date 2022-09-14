@@ -1,0 +1,10 @@
+{
+  "main": "../bundles/sinequa-core-modal.umd.js",
+  "module": "../fesm2015/sinequa-core-modal.js",
+  "es2015": "../fesm2015/sinequa-core-modal.js",
+  "esm2015": "../esm2015/modal/sinequa-core-modal.js",
+  "fesm2015": "../fesm2015/sinequa-core-modal.js",
+  "typings": "sinequa-core-modal.d.ts",
+  "sideEffects": false,
+  "name": "@sinequa/core/modal"
+}

@@ -1,0 +1,47 @@
+import { EventEmitter, OnChanges, SimpleChanges, AfterViewChecked } from "@angular/core";
+import { SafeResourceUrl } from "@angular/platform-browser";
+import { Query } from '@sinequa/core/app-utils';
+import { Record, PreviewData } from "@sinequa/core/web-services";
+import { PreviewService } from "../../preview.service";
+import { PreviewDocument, HighlightFilters } from "../../preview-document";
+import { AbstractFacet } from '@sinequa/components/facet';
+import { Action } from '@sinequa/components/action';
+import * as i0 from "@angular/core";
+export declare class BsFacetPreviewComponent2 extends AbstractFacet implements OnChanges, AfterViewChecked {
+    private previewService;
+    record: Record;
+    query: Query;
+    iframeClass: string;
+    sandbox: string | null;
+    height: number;
+    scalingFactor: number;
+    metadata: string[];
+    expandModal: boolean;
+    closable: boolean;
+    highlightActions: boolean;
+    customActions: Action[];
+    filters: HighlightFilters;
+    originalDocTarget: string | undefined;
+    recordClosed: EventEmitter<void>;
+    previewLoaded: EventEmitter<PreviewDocument>;
+    _height: number;
+    private closeAction;
+    private expandModalAction;
+    private toggleEntitiesAction;
+    private toggleExtractsAction;
+    private minimizeAction;
+    private maximizeAction;
+    data?: PreviewData;
+    document?: PreviewDocument;
+    downloadUrl?: SafeResourceUrl;
+    private readonly scaleFactorThreshold;
+    private loaded;
+    constructor(previewService: PreviewService);
+    get actions(): Action[];
+    ngOnChanges(changes: SimpleChanges): void;
+    ngAfterViewChecked(): void;
+    onPreviewReady(document: PreviewDocument): void;
+    static ɵfac: i0.ɵɵFactoryDef<BsFacetPreviewComponent2, never>;
+    static ɵcmp: i0.ɵɵComponentDefWithMeta<BsFacetPreviewComponent2, "sq-facet-preview-2", never, { "record": "record"; "query": "query"; "iframeClass": "iframeClass"; "sandbox": "sandbox"; "height": "height"; "scalingFactor": "scalingFactor"; "metadata": "metadata"; "expandModal": "expandModal"; "closable": "closable"; "highlightActions": "highlightActions"; "customActions": "customActions"; "filters": "filters"; "originalDocTarget": "originalDocTarget"; }, { "recordClosed": "recordClosed"; "previewLoaded": "previewLoaded"; }, never, never>;
+}
+//# sourceMappingURL=facet-preview.component.d.ts.map

@@ -1,0 +1,10 @@
+{
+  "main": "../bundles/sinequa-components-feedback.umd.js",
+  "module": "../fesm2015/sinequa-components-feedback.js",
+  "es2015": "../fesm2015/sinequa-components-feedback.js",
+  "esm2015": "../esm2015/feedback/sinequa-components-feedback.js",
+  "fesm2015": "../fesm2015/sinequa-components-feedback.js",
+  "typings": "sinequa-components-feedback.d.ts",
+  "sideEffects": false,
+  "name": "@sinequa/components/feedback"
+}

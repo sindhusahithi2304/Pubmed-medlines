@@ -1,0 +1,70 @@
+<div *ngIf="!isEmpty" class="sq-metadata-item {{itemClasses}}">
+    <!-- Icon -->
+    <span *ngIf="showIcon && !!item" class="sq-metadata-item-icon sq-icon-{{item}} {{docFormatIconClass}} fa-fw pr-2"
+        [title]="label | sqMessage">
+    </span>
+
+    <!-- Label (title)-->
+    <span *ngIf="showTitle && !!item" class="sq-metadata-item-label pr-2">{{'msg#metadata.item.label' | sqMessage:itemLabelMessageParams}}</span>
+    
+    <span class="sq-metadata-item-values" [ngClass]="{collapsed: !!collapsed}" #values>
+        <!-- Collapse button -->
+        <a *ngIf="collapseRows && needsCollapse" href="#" (click)="toggleCollapse()" class="collapse-button mr-1">
+            <i class="fas fa-fw fa-chevron-{{collapsed? 'right' : 'down'}}"></i>
+        </a>
+        
+        <!-- Access list metadata -->
+        <sq-metadata-access-lists-item *ngIf="isAccessLists; else default" [accessLists]="accessListsData">
+        </sq-metadata-access-lists-item>
+
+        <!-- Other types of metadata -->
+        <ng-template #default>
+            <ng-container *ngIf="isTree; else isNotTree">
+                <!-- Tree (displayed as breadcrumbs)-->
+                <ng-container *ngFor="let valueItem of valueItems; let $index = index">
+                    <ol class="breadcrumb" *ngIf="!!valueItem.parts && valueItem.parts.length > 0">
+                        <li *ngFor="let part of valueItem.parts; let $subIndex = index">
+                            <a    *ngIf="clickable"  class="badge badge-pill" [ngClass]="'sq-metadata-item-' + item" href="#" (click)="select($index, $subIndex)">{{part | sqValue:column}}</a>
+                            <span *ngIf="!clickable" [ngClass]="'sq-metadata-item-' + item">{{part | sqValue:column}}</span>
+                            <span *ngIf="$subIndex < valueItem.parts.length - 1" class="sq-metadata-item-tree-node-separator">{{'msg#metadata.item.treeNodeSeparator' | sqMessage}}</span>
+                        </li>
+                    </ol>
+                    <span *ngIf="$index < valueItems.length - 1" class="sq-metadata-item-tree-separator">{{'msg#metadata.item.treeSeparator' | sqMessage}}</span>
+                </ng-container>
+            </ng-container>
+
+            <!-- Not a Tree-->
+            <ng-template #isNotTree>
+                <ng-container *ngIf="clickable; else notTreeNonClickable">
+                    <!-- Clickable -->
+                    <a  *ngFor="let valueItem of valueItems; let $index = index"
+                        class="badge badge-pill {{'sq-metadata-item-' + item}} mr-1"
+                        [href]="valueItem.value"
+                        (click)="select($index)"
+                        [attr.title]="showTitle? null : (label | sqMessage)"
+                        target="_blank">{{valueItem | sqValue:column}}
+                        <span *ngIf="showCounts && valueItem.count"
+                            class="counter badge badge-light ml-1"
+                            [title]="valueItem.count + ' occurrences in document'">{{valueItem.count}}</span>
+                    </a>
+
+                </ng-container>
+                <ng-template #notTreeNonClickable>
+                    <!-- Not clickable -->
+                    <ng-container *ngFor="let valueItem of valueItems; let $index = index">                     
+                          <span class="{{'sq-metadata-item-' + item}}"
+                            [attr.title]="showTitle? null : (label | sqMessage)">
+
+                            <sq-showmore [question]="valueItem.value"></sq-showmore>
+                            <!-- {{valueItem | sqValue:column}} -->
+                            <span *ngIf="showCounts && valueItem.count"
+                                class="small"
+                                [title]="valueItem.count + ' occurrences in document'">({{valueItem.count}})</span>
+                        </span>
+                        <span *ngIf="$index < valueItems.length - 1" class="sq-metadata-item-list-separator">{{'msg#metadata.item.listSeparator' | sqMessage}}</span>
+                    </ng-container>
+                </ng-template>
+            </ng-template>
+        </ng-template>
+    </span>
+</div>

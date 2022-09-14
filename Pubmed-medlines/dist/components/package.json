@@ -1,0 +1,28 @@
+{
+  "name": "@sinequa/components",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "bootstrap": "^4.4.1",
+    "classlist.js": "^1.1.20150312",
+    "element-resize-detector": "^1.2.1",
+    "moment": "^2.24.0",
+    "ng5-slider": "^1.2.4",
+    "ngx-bootstrap": "^5.6.1",
+    "popper.js": "^1.16.1"
+  },
+  "dependencies": {
+    "@sinequa/core": "^0.0.1",
+    "tslib": "^2.0.0"
+  },
+  "main": "bundles/sinequa-components.umd.js",
+  "module": "fesm2015/sinequa-components.js",
+  "es2015": "fesm2015/sinequa-components.js",
+  "esm2015": "esm2015/sinequa-components.js",
+  "fesm2015": "fesm2015/sinequa-components.js",
+  "typings": "sinequa-components.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy. This is not allowed.\\nPlease delete and rebuild the package, without compiling with Ivy, before attempting to publish.\\n')\" && exit 1"
+  }
+}

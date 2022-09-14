@@ -1,0 +1,10 @@
+{
+  "main": "../bundles/sinequa-components-preview.umd.js",
+  "module": "../fesm2015/sinequa-components-preview.js",
+  "es2015": "../fesm2015/sinequa-components-preview.js",
+  "esm2015": "../esm2015/preview/sinequa-components-preview.js",
+  "fesm2015": "../fesm2015/sinequa-components-preview.js",
+  "typings": "sinequa-components-preview.d.ts",
+  "sideEffects": false,
+  "name": "@sinequa/components/preview"
+}

@@ -1,0 +1,10 @@
+{
+  "main": "../bundles/sinequa-components-theme-toggle.umd.js",
+  "module": "../fesm2015/sinequa-components-theme-toggle.js",
+  "es2015": "../fesm2015/sinequa-components-theme-toggle.js",
+  "esm2015": "../esm2015/theme-toggle/sinequa-components-theme-toggle.js",
+  "fesm2015": "../fesm2015/sinequa-components-theme-toggle.js",
+  "typings": "sinequa-components-theme-toggle.d.ts",
+  "sideEffects": false,
+  "name": "@sinequa/components/theme-toggle"
+}

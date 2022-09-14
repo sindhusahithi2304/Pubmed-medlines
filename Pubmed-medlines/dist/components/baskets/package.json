@@ -1,0 +1,10 @@
+{
+  "main": "../bundles/sinequa-components-baskets.umd.js",
+  "module": "../fesm2015/sinequa-components-baskets.js",
+  "es2015": "../fesm2015/sinequa-components-baskets.js",
+  "esm2015": "../esm2015/baskets/sinequa-components-baskets.js",
+  "fesm2015": "../fesm2015/sinequa-components-baskets.js",
+  "typings": "sinequa-components-baskets.d.ts",
+  "sideEffects": false,
+  "name": "@sinequa/components/baskets"
+}

@@ -1,0 +1,10 @@
+{
+  "main": "../bundles/sinequa-core-intl.umd.js",
+  "module": "../fesm2015/sinequa-core-intl.js",
+  "es2015": "../fesm2015/sinequa-core-intl.js",
+  "esm2015": "../esm2015/intl/sinequa-core-intl.js",
+  "fesm2015": "../fesm2015/sinequa-core-intl.js",
+  "typings": "sinequa-core-intl.d.ts",
+  "sideEffects": false,
+  "name": "@sinequa/core/intl"
+}

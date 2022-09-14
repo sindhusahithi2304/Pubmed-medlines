@@ -1,0 +1,10 @@
+{
+  "main": "../bundles/sinequa-components-alerts.umd.js",
+  "module": "../fesm2015/sinequa-components-alerts.js",
+  "es2015": "../fesm2015/sinequa-components-alerts.js",
+  "esm2015": "../esm2015/alerts/sinequa-components-alerts.js",
+  "fesm2015": "../fesm2015/sinequa-components-alerts.js",
+  "typings": "sinequa-components-alerts.d.ts",
+  "sideEffects": false,
+  "name": "@sinequa/components/alerts"
+}

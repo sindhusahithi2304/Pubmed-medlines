@@ -1,0 +1,7 @@
+export default {
+    "clipboard": {
+        "success": "{data} copied to the clipboard",
+        "error": "Clipboard error"
+    }
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZW4uanMiLCJzb3VyY2VSb290IjoiLi4vLi4vLi4vLi4vcHJvamVjdHMvY29tcG9uZW50cy91dGlscy8iLCJzb3VyY2VzIjpbIm1lc3NhZ2VzL2VuLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGVBQWU7SUFDWCxXQUFXLEVBQUU7UUFDVCxTQUFTLEVBQUUsZ0NBQWdDO1FBQzNDLE9BQU8sRUFBRSxpQkFBaUI7S0FDN0I7Q0FDSixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQge1xyXG4gICAgXCJjbGlwYm9hcmRcIjoge1xyXG4gICAgICAgIFwic3VjY2Vzc1wiOiBcIntkYXRhfSBjb3BpZWQgdG8gdGhlIGNsaXBib2FyZFwiLFxyXG4gICAgICAgIFwiZXJyb3JcIjogXCJDbGlwYm9hcmQgZXJyb3JcIlxyXG4gICAgfVxyXG59O1xyXG4iXX0=

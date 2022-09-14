@@ -1,0 +1,10 @@
+{
+  "main": "../bundles/sinequa-components-result.umd.js",
+  "module": "../fesm2015/sinequa-components-result.js",
+  "es2015": "../fesm2015/sinequa-components-result.js",
+  "esm2015": "../esm2015/result/sinequa-components-result.js",
+  "fesm2015": "../fesm2015/sinequa-components-result.js",
+  "typings": "sinequa-components-result.d.ts",
+  "sideEffects": false,
+  "name": "@sinequa/components/result"
+}

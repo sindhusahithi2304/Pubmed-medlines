@@ -1,0 +1,1 @@
+{"version":3,"file":"metadata-access-lists-item.d.ts","sourceRoot":"../../../../projects/components/metadata/","sources":["metadata-access-lists-item/metadata-access-lists-item.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,mBAAmB,EAAE,MAAM,4BAA4B,CAAC;;AAEjE,qBAKa,uBAAuB;IAChB,WAAW,EAAE,mBAAmB,CAAC;iCADxC,uBAAuB;2CAAvB,uBAAuB;CAEnC"}

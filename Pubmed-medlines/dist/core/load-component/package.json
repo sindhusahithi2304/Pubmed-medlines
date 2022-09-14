@@ -1,0 +1,10 @@
+{
+  "main": "../bundles/sinequa-core-load-component.umd.js",
+  "module": "../fesm2015/sinequa-core-load-component.js",
+  "es2015": "../fesm2015/sinequa-core-load-component.js",
+  "esm2015": "../esm2015/load-component/sinequa-core-load-component.js",
+  "fesm2015": "../fesm2015/sinequa-core-load-component.js",
+  "typings": "sinequa-core-load-component.d.ts",
+  "sideEffects": false,
+  "name": "@sinequa/core/load-component"
+}

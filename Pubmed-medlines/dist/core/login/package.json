@@ -1,0 +1,10 @@
+{
+  "main": "../bundles/sinequa-core-login.umd.js",
+  "module": "../fesm2015/sinequa-core-login.js",
+  "es2015": "../fesm2015/sinequa-core-login.js",
+  "esm2015": "../esm2015/login/sinequa-core-login.js",
+  "fesm2015": "../fesm2015/sinequa-core-login.js",
+  "typings": "sinequa-core-login.d.ts",
+  "sideEffects": false,
+  "name": "@sinequa/core/login"
+}

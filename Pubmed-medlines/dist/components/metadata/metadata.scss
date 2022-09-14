@@ -1,0 +1,23 @@
+sq-metadata-item .sq-metadata-item {
+
+    a.badge {
+        background-color: lightgrey;
+        color: lighten(black, 10%);
+
+        @include hover-focus {
+            background-color: darken(lightgrey, 10%);
+            color: black;
+        }
+    }
+    
+    // Generate rules for each metadata item declared in _preview.scss
+    @each $meta, $info in $metadata {
+        .sq-metadata-item-#{$meta}, .sq-icon-#{$meta} {
+            color: get-metadata-color($meta);
+        }
+
+        a.badge.sq-metadata-item-#{$meta} {
+            @include generate-metadata-color($meta, true);
+        }
+    }
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"default-locales-config.d.ts","sourceRoot":"../../../projects/core/","sources":["default-locales-config.ts"],"names":[],"mappings":"AAAA,OAAO,EAAC,MAAM,EAAE,aAAa,EAAC,MAAM,oBAAoB,CAAC;AAGzD,qBAAa,oBAAqB,YAAW,aAAa;IACtD,aAAa,EAAE,MAAM,CAAC;IACtB,OAAO,CAAC,EAAE,MAAM,EAAE,CAAC;;CAetB"}

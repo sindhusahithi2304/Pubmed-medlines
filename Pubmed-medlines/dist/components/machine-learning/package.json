@@ -1,0 +1,10 @@
+{
+  "main": "../bundles/sinequa-components-machine-learning.umd.js",
+  "module": "../fesm2015/sinequa-components-machine-learning.js",
+  "es2015": "../fesm2015/sinequa-components-machine-learning.js",
+  "esm2015": "../esm2015/machine-learning/sinequa-components-machine-learning.js",
+  "fesm2015": "../fesm2015/sinequa-components-machine-learning.js",
+  "typings": "sinequa-components-machine-learning.d.ts",
+  "sideEffects": false,
+  "name": "@sinequa/components/machine-learning"
+}

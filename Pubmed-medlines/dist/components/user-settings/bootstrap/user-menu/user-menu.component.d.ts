@@ -1,0 +1,42 @@
+import { OnInit, ChangeDetectorRef, OnDestroy } from '@angular/core';
+import { Action } from '@sinequa/components/action';
+import { PrincipalWebService, UserSettingsWebService } from '@sinequa/core/web-services';
+import { AuthenticationService, LoginService } from '@sinequa/core/login';
+import { IntlService } from '@sinequa/core/intl';
+import { ModalService } from '@sinequa/core/modal';
+import { AppService } from '@sinequa/core/app-utils';
+import { NotificationsService } from '@sinequa/core/notification';
+import * as i0 from "@angular/core";
+export declare class BsUserMenuComponent implements OnInit, OnDestroy {
+    principalService: PrincipalWebService;
+    authenticationService: AuthenticationService;
+    intlService: IntlService;
+    loginService: LoginService;
+    modalService: ModalService;
+    appService: AppService;
+    userSettingsService: UserSettingsWebService;
+    notificationsService: NotificationsService;
+    changeDetectorRef: ChangeDetectorRef;
+    icon: string;
+    autoAdjust: boolean;
+    autoAdjustBreakpoint: string;
+    collapseBreakpoint: string;
+    size: string;
+    menu: Action;
+    loginAction: Action;
+    logoutAction: Action;
+    overrideAction: Action;
+    revertOverrideAction: Action;
+    adminAction: Action;
+    languageAction: Action;
+    resetUserSettings: Action;
+    constructor(principalService: PrincipalWebService, authenticationService: AuthenticationService, intlService: IntlService, loginService: LoginService, modalService: ModalService, appService: AppService, userSettingsService: UserSettingsWebService, notificationsService: NotificationsService, changeDetectorRef: ChangeDetectorRef);
+    ngOnInit(): void;
+    private _loginSubscription;
+    private _principalSubscription;
+    ngOnDestroy(): void;
+    updateMenu(): void;
+    static ɵfac: i0.ɵɵFactoryDef<BsUserMenuComponent, never>;
+    static ɵcmp: i0.ɵɵComponentDefWithMeta<BsUserMenuComponent, "sq-user-menu", never, { "icon": "icon"; "autoAdjust": "autoAdjust"; "autoAdjustBreakpoint": "autoAdjustBreakpoint"; "collapseBreakpoint": "collapseBreakpoint"; "size": "size"; }, {}, never, never>;
+}
+//# sourceMappingURL=user-menu.component.d.ts.map

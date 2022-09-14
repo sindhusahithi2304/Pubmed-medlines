@@ -1,0 +1,10 @@
+{
+  "main": "../bundles/sinequa-components-selection.umd.js",
+  "module": "../fesm2015/sinequa-components-selection.js",
+  "es2015": "../fesm2015/sinequa-components-selection.js",
+  "esm2015": "../esm2015/selection/sinequa-components-selection.js",
+  "fesm2015": "../fesm2015/sinequa-components-selection.js",
+  "typings": "sinequa-components-selection.d.ts",
+  "sideEffects": false,
+  "name": "@sinequa/components/selection"
+}

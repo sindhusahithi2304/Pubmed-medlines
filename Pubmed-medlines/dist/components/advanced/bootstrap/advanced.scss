@@ -1,0 +1,32 @@
+@import "~ngx-bootstrap/datepicker/bs-datepicker";
+
+$sq-select-default-width: 26.5ch !default;
+
+sq-select {
+
+    .sq-button-text {
+        display: inline-block;
+        text-align: left;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        vertical-align: text-bottom;
+        width: calc(100% - 3 * #{$caret_width});
+    }
+
+    button.form-control {
+        .form-inline & { // to beat Bootstrap's specificity
+            width: $sq-select-default-width;
+        }
+    }
+
+    .dropdown-menu {
+        overflow: auto;
+        min-width: 100%;
+    }
+
+    .dropdown-item {
+        position: relative;
+        cursor: pointer;
+        padding-left: $dropdown-item-padding-x/2;
+    }
+}

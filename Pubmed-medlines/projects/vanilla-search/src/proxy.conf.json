@@ -1,0 +1,22 @@
+{
+    "/api/": {
+      "target": "http://172.16.40.132/",
+      "secure": false,
+      "changeOrigin": true,
+      "headers": {
+        "Connection": "keep-alive"
+    }
+    },
+    
+    "/xdownload": {
+        "target": "http://172.16.40.132/",
+        "secure": false,
+        "changeOrigin": true
+    },
+    
+    "/saml/redirect": {
+        "target": "http://172.16.40.132/",
+        "secure": false,
+        "changeOrigin": true
+    }
+}

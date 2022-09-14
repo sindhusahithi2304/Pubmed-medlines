@@ -1,0 +1,10 @@
+{
+  "main": "../bundles/sinequa-components-advanced.umd.js",
+  "module": "../fesm2015/sinequa-components-advanced.js",
+  "es2015": "../fesm2015/sinequa-components-advanced.js",
+  "esm2015": "../esm2015/advanced/sinequa-components-advanced.js",
+  "fesm2015": "../fesm2015/sinequa-components-advanced.js",
+  "typings": "sinequa-components-advanced.d.ts",
+  "sideEffects": false,
+  "name": "@sinequa/components/advanced"
+}

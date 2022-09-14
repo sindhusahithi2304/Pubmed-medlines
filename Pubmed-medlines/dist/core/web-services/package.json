@@ -1,0 +1,10 @@
+{
+  "main": "../bundles/sinequa-core-web-services.umd.js",
+  "module": "../fesm2015/sinequa-core-web-services.js",
+  "es2015": "../fesm2015/sinequa-core-web-services.js",
+  "esm2015": "../esm2015/web-services/sinequa-core-web-services.js",
+  "fesm2015": "../fesm2015/sinequa-core-web-services.js",
+  "typings": "sinequa-core-web-services.d.ts",
+  "sideEffects": false,
+  "name": "@sinequa/core/web-services"
+}

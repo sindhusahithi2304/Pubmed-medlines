@@ -1,0 +1,9 @@
+export default {
+    "notification": {
+        "title": "Notifications",
+        "showNotifications": "Show notifications",
+        "hideNotifications": "Hide notifications",
+        "clearNotifications": "Clear notifications",
+    }
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZW4uanMiLCJzb3VyY2VSb290IjoiLi4vLi4vLi4vLi4vcHJvamVjdHMvY29tcG9uZW50cy9ub3RpZmljYXRpb24vIiwic291cmNlcyI6WyJtZXNzYWdlcy9lbi50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxlQUFlO0lBQ1gsY0FBYyxFQUFFO1FBQ1osT0FBTyxFQUFFLGVBQWU7UUFDeEIsbUJBQW1CLEVBQUUsb0JBQW9CO1FBQ3pDLG1CQUFtQixFQUFFLG9CQUFvQjtRQUN6QyxvQkFBb0IsRUFBRSxxQkFBcUI7S0FDOUM7Q0FDSixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQge1xuICAgIFwibm90aWZpY2F0aW9uXCI6IHtcbiAgICAgICAgXCJ0aXRsZVwiOiBcIk5vdGlmaWNhdGlvbnNcIixcbiAgICAgICAgXCJzaG93Tm90aWZpY2F0aW9uc1wiOiBcIlNob3cgbm90aWZpY2F0aW9uc1wiLFxuICAgICAgICBcImhpZGVOb3RpZmljYXRpb25zXCI6IFwiSGlkZSBub3RpZmljYXRpb25zXCIsXG4gICAgICAgIFwiY2xlYXJOb3RpZmljYXRpb25zXCI6IFwiQ2xlYXIgbm90aWZpY2F0aW9uc1wiLFxuICAgIH1cbn07XG4iXX0=

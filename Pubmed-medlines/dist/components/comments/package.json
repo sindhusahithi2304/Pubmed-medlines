@@ -1,0 +1,10 @@
+{
+  "main": "../bundles/sinequa-components-comments.umd.js",
+  "module": "../fesm2015/sinequa-components-comments.js",
+  "es2015": "../fesm2015/sinequa-components-comments.js",
+  "esm2015": "../esm2015/comments/sinequa-components-comments.js",
+  "fesm2015": "../fesm2015/sinequa-components-comments.js",
+  "typings": "sinequa-components-comments.d.ts",
+  "sideEffects": false,
+  "name": "@sinequa/components/comments"
+}

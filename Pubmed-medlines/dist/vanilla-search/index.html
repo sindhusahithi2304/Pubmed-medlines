@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>PubMed</title>
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+         <link rel="icon" type="image/x-icon" href="assets/vanilla-favicon.png">
+    <link rel="stylesheet" href="app.0c655383b6a8a02a8f90.css"></head>
+    <body>
+        <app>
+            <div class="h-100 d-flex flex-column justify-content-center align-items-center">
+                <img id="sinequa-logo" class="mb-3" src="assets/sinequa-logo-light-lg.png" width="180px">
+                <img src="assets/loading.gif">
+            </div>
+        </app>
+        <script>
+    // Get theme from local storage
+    let theme = localStorage.getItem('sinequa-theme');
+    // Detect OS theme
+    if(!theme && window.matchMedia) {
+        if(window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            theme = 'dark';
+        }
+    }
+    // Apply theme (defaults to light mode)
+    if(theme && theme === 'dark'){
+        document.body.classList.toggle("dark");
+        document.getElementById("sinequa-logo").setAttribute("src", "assets/sinequa-logo-dark-lg.png")
+    }
+        </script>
+    <script src="runtime-es2015.c4eb816dab7c85f6f92f.js" type="module"></script><script src="runtime-es5.c4eb816dab7c85f6f92f.js" nomodule defer></script><script src="polyfills-es5.bc47b2ac5d657bba6404.js" nomodule defer></script><script src="polyfills-es2015.664a2443c66af66d5b66.js" type="module"></script><script src="main-es2015.e619d38b64683bb4dddf.js" type="module"></script><script src="main-es5.e619d38b64683bb4dddf.js" nomodule defer></script></body>
+</html>

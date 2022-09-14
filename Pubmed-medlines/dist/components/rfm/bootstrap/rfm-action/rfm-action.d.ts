@@ -1,0 +1,40 @@
+import { OnChanges, SimpleChanges, OnDestroy, ChangeDetectorRef } from "@angular/core";
+import { Results, Record, RFMDisplay, RFMActionDisplay } from "@sinequa/core/web-services";
+import { RFMService, CCRFM, RFMType } from "../../rfm.service";
+import { Action } from "@sinequa/components/action";
+import * as i0 from "@angular/core";
+export declare class BsRfmAction implements OnChanges, OnDestroy {
+    protected changeDetectorRef: ChangeDetectorRef;
+    protected rFMService: RFMService;
+    results: Results;
+    record: Record;
+    config: CCRFM.Action;
+    rfm: RFMActionDisplay;
+    type: RFMType;
+    size: string;
+    action: Action;
+    menuActions: RFMDisplay[];
+    private rfmSubscription;
+    constructor(changeDetectorRef: ChangeDetectorRef, rFMService: RFMService);
+    ngOnChanges(changes: SimpleChanges): void;
+    ngOnDestroy(): void;
+    get hasRFMAction(): boolean;
+    get rfmStatus(): RFMDisplay;
+    get hasRfmImage(): boolean;
+    get rfmImage(): RFMDisplay;
+    private get rfmDefaultImage();
+    get rfmImageAction(): RFMDisplay;
+    private get rfmDefaultImageAction();
+    get rfmAvailableActions(): RFMDisplay;
+    private get rfmDefaultAvailableActions();
+    get displayImgAction(): boolean;
+    get displayMenu(): boolean;
+    get displayNoAction(): boolean;
+    getActionIcon(rfmDisplay: RFMDisplay): string;
+    buildAction(): void;
+    selectRfmDisplay(rfmDisplay: RFMDisplay): void;
+    private updateRfmData;
+    static ɵfac: i0.ɵɵFactoryDef<BsRfmAction, never>;
+    static ɵcmp: i0.ɵɵComponentDefWithMeta<BsRfmAction, "sq-rfm-action", never, { "results": "results"; "record": "record"; "config": "config"; "rfm": "rfm"; "type": "type"; "size": "size"; }, {}, never, never>;
+}
+//# sourceMappingURL=rfm-action.d.ts.map

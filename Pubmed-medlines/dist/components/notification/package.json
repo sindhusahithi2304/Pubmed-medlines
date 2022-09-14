@@ -1,0 +1,10 @@
+{
+  "main": "../bundles/sinequa-components-notification.umd.js",
+  "module": "../fesm2015/sinequa-components-notification.js",
+  "es2015": "../fesm2015/sinequa-components-notification.js",
+  "esm2015": "../esm2015/notification/sinequa-components-notification.js",
+  "fesm2015": "../fesm2015/sinequa-components-notification.js",
+  "typings": "sinequa-components-notification.d.ts",
+  "sideEffects": false,
+  "name": "@sinequa/components/notification"
+}

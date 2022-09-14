@@ -1,0 +1,10 @@
+{
+  "main": "../bundles/sinequa-components-collapse.umd.js",
+  "module": "../fesm2015/sinequa-components-collapse.js",
+  "es2015": "../fesm2015/sinequa-components-collapse.js",
+  "esm2015": "../esm2015/collapse/sinequa-components-collapse.js",
+  "fesm2015": "../fesm2015/sinequa-components-collapse.js",
+  "typings": "sinequa-components-collapse.d.ts",
+  "sideEffects": false,
+  "name": "@sinequa/components/collapse"
+}

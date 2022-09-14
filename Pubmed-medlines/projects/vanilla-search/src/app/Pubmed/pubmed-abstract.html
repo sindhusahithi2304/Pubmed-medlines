@@ -1,0 +1,6 @@
+<span [innerHTML]="shortQuestion" *ngIf="!isShowMore"></span>
+
+<span [innerHTML]="longQuestion" *ngIf="isShowMore || !isBigQuestion"> </span>
+
+<span class="showMore" *ngIf="isBigQuestion" (click)="showMore($event)">
+  {{ isShowMore ? 'show less' : 'show more' }}</span>

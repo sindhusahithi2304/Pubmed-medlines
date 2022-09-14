@@ -1,0 +1,22 @@
+<div class="card">    
+    <div class="card-header cursor-default pl-3 pr-2 py-1">
+        <div class="d-flex">
+            <div class="d-flex align-items-center text-truncate mr-auto" [title]="(tooltip || title) | sqMessage">
+                <div *ngIf="!!icon" class="card-icon {{icon}} mr-2" aria-hidden="true"></div>
+                <div *ngIf="title" class="card-title text-truncate mb-0 py-1 mr-auto">{{title | sqMessage }}</div>
+            </div>
+            <ng-container *ngIf="facetComponent && facetComponent.headerTpl" [ngTemplateOutlet]="facetComponent.headerTpl">
+            </ng-container>
+            <div class="btn-group" [sq-action-buttons]="{items: allActions, style: buttonsStyle, size: actionsSize, rightAligned: true}"></div>
+        </div>
+        <ng-container *ngIf="facetComponent && facetComponent.subHeaderTpl" [ngTemplateOutlet]="facetComponent.subHeaderTpl"></ng-container>
+    </div>
+    <sq-collapse [collapsed]="_collapsed" *ngIf="!_settingsOpened">
+        <ng-template>
+            <ng-content>
+            </ng-content>
+        </ng-template>
+    </sq-collapse>
+    <ng-container *ngIf="hasSettings && _settingsOpened" [ngTemplateOutlet]="facetComponent.settingsTpl"></ng-container>
+    <ng-container class="card-footer" *ngIf="facetComponent && facetComponent.footerTpl" [ngTemplateOutlet]="facetComponent.footerTpl"></ng-container>
+</div>

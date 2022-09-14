@@ -1,0 +1,10 @@
+{
+  "main": "../bundles/sinequa-core-base.umd.js",
+  "module": "../fesm2015/sinequa-core-base.js",
+  "es2015": "../fesm2015/sinequa-core-base.js",
+  "esm2015": "../esm2015/base/sinequa-core-base.js",
+  "fesm2015": "../fesm2015/sinequa-core-base.js",
+  "typings": "sinequa-core-base.d.ts",
+  "sideEffects": false,
+  "name": "@sinequa/core/base"
+}

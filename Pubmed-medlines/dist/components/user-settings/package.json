@@ -1,0 +1,10 @@
+{
+  "main": "../bundles/sinequa-components-user-settings.umd.js",
+  "module": "../fesm2015/sinequa-components-user-settings.js",
+  "es2015": "../fesm2015/sinequa-components-user-settings.js",
+  "esm2015": "../esm2015/user-settings/sinequa-components-user-settings.js",
+  "fesm2015": "../fesm2015/sinequa-components-user-settings.js",
+  "typings": "sinequa-components-user-settings.d.ts",
+  "sideEffects": false,
+  "name": "@sinequa/components/user-settings"
+}

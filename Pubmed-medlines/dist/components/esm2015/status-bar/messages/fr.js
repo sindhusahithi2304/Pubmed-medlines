@@ -1,0 +1,8 @@
+export default {
+    "statusBar": {
+        "fullscreenTitleEnter": "Plein écran",
+        "fullscreenTitleExit": "Quitter le mode plein écran",
+        "networkActivity": "Activité reseau"
+    }
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZnIuanMiLCJzb3VyY2VSb290IjoiLi4vLi4vLi4vLi4vcHJvamVjdHMvY29tcG9uZW50cy9zdGF0dXMtYmFyLyIsInNvdXJjZXMiOlsibWVzc2FnZXMvZnIudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsZUFBZTtJQUNYLFdBQVcsRUFBRTtRQUNULHNCQUFzQixFQUFFLGFBQWE7UUFDckMscUJBQXFCLEVBQUUsNkJBQTZCO1FBQ3BELGlCQUFpQixFQUFFLGlCQUFpQjtLQUN2QztDQUNKLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCB7XG4gICAgXCJzdGF0dXNCYXJcIjoge1xuICAgICAgICBcImZ1bGxzY3JlZW5UaXRsZUVudGVyXCI6IFwiUGxlaW4gw6ljcmFuXCIsXG4gICAgICAgIFwiZnVsbHNjcmVlblRpdGxlRXhpdFwiOiBcIlF1aXR0ZXIgbGUgbW9kZSBwbGVpbiDDqWNyYW5cIixcbiAgICAgICAgXCJuZXR3b3JrQWN0aXZpdHlcIjogXCJBY3Rpdml0w6kgcmVzZWF1XCJcbiAgICB9XG59O1xuIl19
